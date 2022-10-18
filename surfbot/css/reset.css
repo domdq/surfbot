@@ -1,0 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Nunito, Alice;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
