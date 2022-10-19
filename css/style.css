@@ -1,3 +1,4 @@
+/********** Nav Meu **********/
 .info {
   background: #1188ee;
   padding: 6px;
@@ -31,6 +32,7 @@
   text-decoration: underline;
   text-decoration-color: red;
 }
+/********** Header and Form **********/
 .header {
   background-image: url(/img/bg-intro.jpg);
   background-size: cover;
@@ -80,17 +82,17 @@
 .form img {
   margin-left: 21px;
 }
+/********** Section 1 **********/
 .red-ellipse {
   display: flex;
 }
-
 .red-ellipse span {
   width: 10px;
   height: 10px;
   border: solid 2px red;
   border-radius: 50px;
 }
-.blue-ellipse-infor {
+.blue-ellipse-item {
   display: flex;
 }
 .span-black {
