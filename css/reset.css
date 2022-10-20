@@ -9,6 +9,11 @@ body {
 li {
   list-style: none;
 }
+h1 {
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 72px;
+}
 .container {
   width: 1170px;
   margin: 0 auto;

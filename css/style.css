@@ -83,24 +83,68 @@
   margin-left: 21px;
 }
 /********** Section 1 **********/
+/********** Panflero Maps **********/
+.panfleto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  margin-top: 60px;
+}
+.map-item {
+  position: relative;
+}
+.map {
+  position: absolute;
+  left: 23px;
+  bottom: -15px;
+  filter: drop-shadow(0px 5px 5px rgba(187, 204, 221, 0.3))
+    drop-shadow(0px 10px 10px rgba(187, 204, 221, 0.2));
+}
 .red-ellipse {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  margin-top: 50px;
 }
 .red-ellipse span {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: solid 2px red;
   border-radius: 50px;
 }
+.red-ellipse p {
+  font-family: "Nunito";
+  font-weight: 700px;
+  font-size: 14px;
+  color: #17222d;
+}
+.ellipses ul {
+  margin-top: 13px;
+}
 .blue-ellipse-item {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  margin-top: 13px;
 }
-.span-black {
-  font-weight: bold;
+.blue-ellipse-item p {
+  font-family: "nunito";
+  font-size: 14px;
+  font-weight: 700;
+  color: #99aabb;
 }
 .blue-ellipse {
   width: 10px;
-  height: 10px;
-  border: solid 2px blue;
-  border-radius: 50px;
+  height: 2px;
+  background: #1188ee;
 }
+.span-black {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #17222d;
+}
+/********** Panfleto Infor **********/
