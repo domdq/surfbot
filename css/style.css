@@ -148,3 +148,25 @@
   color: #17222d;
 }
 /********** Panfleto Infor **********/
+.span-blue {
+  color: #1188ee;
+}
+.panfleto-items {
+  margin-top: 60px;
+}
+.texts {
+  margin-top: 30px;
+}
+.pafleto-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.barra-gray {
+  background: #eff4f9;
+  width: 450px;
+  height: 2px;
+}

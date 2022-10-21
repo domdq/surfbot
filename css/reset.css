@@ -14,6 +14,12 @@ h1 {
   font-weight: 400;
   font-size: 72px;
 }
+p {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  color: #445566;
+}
 .container {
   width: 1170px;
   margin: 0 auto;
