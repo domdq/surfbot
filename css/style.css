@@ -218,3 +218,67 @@
   right: 0;
   top: -20px;
 }
+.card h2 {
+  color: #445566;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "nunito";
+  text-transform: uppercase;
+}
+.barragray-card {
+  background: #eff4f9;
+  height: 2px;
+  margin-top: 30px;
+}
+.card li {
+  margin-top: 30px;
+  display: flex;
+}
+.pricebtn {
+  margin-top: 15px;
+}
+.pricebtn span {
+  color: #1188ee;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Nunito";
+}
+.pricebtn button {
+  display: block;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  background: #445566;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+}
+.pricebtn button img {
+  margin-left: 60px;
+}
+.card-text {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+}
+#color-red {
+  color: #ee2211;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+#sublinhado-red {
+  color: #445566;
+  text-decoration-color: #ee2211;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
