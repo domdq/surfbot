@@ -282,14 +282,14 @@
   font-weight: 400;
   text-align: center;
 }
-/* image2 */
-.image2 {
+/* image backgroud */
+.image-bg {
   background-image: url("../img/foto-quote.jpg");
   background-size: cover;
   height: 480px;
   padding: 120px;
 }
-.image2 h1 {
+.image-bg h1 {
   font-family: "Alice";
   font-style: normal;
   font-weight: 400px;
@@ -297,7 +297,7 @@
   text-align: center;
   color: #fff;
 }
-.image2 p {
+.image-bg p {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
