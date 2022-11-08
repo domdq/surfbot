@@ -306,3 +306,44 @@
   text-align: center;
   margin-top: 30px;
 }
+/********** Formulario **********/
+.title-form {
+  color: #445566;
+  font-family: "Alice";
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center;
+  margin-top: 54px;
+}
+.group-form {
+  margin-top: 30px;
+}
+.form label {
+  color: #445566;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 18px;
+}
+.form input {
+  background: #eff4f9;
+  box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+  border-radius: 5px;
+  width: 470px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.form textarea {
+  background: #eff4f9;
+  box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+  border-radius: 5px;
+  border: none;
+  width: 470px;
+  height: 180px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.form button {
+  background: #445566;
+  box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+  border-radius: 5px;
+}
