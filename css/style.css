@@ -189,7 +189,7 @@
   width: 174px;
   height: 68px;
   display: block;
-  background-image: url(../img/ondas.svg);
+  background-image: url("../img/ondas.svg");
   position: absolute;
   right: 45vw;
   top: -32px;
@@ -235,6 +235,15 @@
 .card li {
   margin-top: 30px;
   display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.red-ellipse-card  /* Li */ {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border: solid 2px red;
+  border-radius: 50px;
 }
 .pricebtn {
   margin-top: 15px;
@@ -306,7 +315,7 @@
   text-align: center;
   margin-top: 30px;
 }
-/********** Formulario **********/
+/********** Section Form **********/
 .title-form {
   color: #445566;
   font-family: "Alice";
@@ -359,8 +368,51 @@
   border-radius: 5px;
   margin-top: 30px;
 }
+/********** Formulario Grup **********/
 .barraform-vertical {
   background: #eff4f9;
   width: 2px;
   height: 400px;
+}
+
+h4 {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 700;
+  color: #445566;
+}
+#text-formgroup {
+  font-family: "Nunito";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #445566;
+  margin-top: 5px;
+}
+#vectoRED {
+  margin-top: 10px;
+  gap: 9px;
+  display: flex;
+  align-items: center;
+}
+#vectoRED span {
+  font-family: "Nunito";
+  font-size: 14px;
+  font-weight: 700;
+  color: #445566;
+  margin-top: 10px;
+}
+#vectoRED img {
+  margin-top: 7px;
+}
+.barraform-horizontal {
+  width: 270;
+  height: 2px;
+  background: #eff4f9;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#on {
+  display: flex;
+  gap: 5px;
 }
