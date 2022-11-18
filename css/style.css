@@ -316,6 +316,9 @@
   margin-top: 30px;
 }
 /********** Section Form **********/
+.section-contato {
+  position: relative;
+}
 .title-form {
   color: #445566;
   font-family: "Alice";
@@ -368,6 +371,10 @@
   border-radius: 5px;
   margin-top: 30px;
 }
+.form input:focus,
+textarea:focus {
+  outline: 2px solid #1188ee;
+}
 /********** Formulario Grup **********/
 .barraform-vertical {
   background: #eff4f9;
@@ -413,6 +420,27 @@ h4 {
   margin-bottom: 15px;
 }
 #on {
+  margin-left: -15px;
   display: flex;
   gap: 5px;
+}
+#icones-bg img {
+  position: absolute;
+}
+/********* Footer **********/
+.footer-bg {
+  background: #1188ee;
+}
+.footer-infor {
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0px 45px 0px;
+}
+.footer-infor p {
+  color: #fff;
+  font-family: "Nunito";
+  font-weight: 700px;
+  font-size: 18px;
 }
