@@ -1,4 +1,4 @@
-/********** Nav Meu **********/
+/********** infor **********/
 .info {
   background: #1188ee;
   padding: 6px;
@@ -6,11 +6,17 @@
   font-family: "Nunito";
   font-size: 14px;
 }
+@media screen and (max-width: 400px) {
+  .info p {
+    text-align: center;
+  }
+}
 .info p {
   color: #fff;
   font-family: "Nunito";
   font-size: 14px;
 }
+/********** Nav Meu **********/
 .nav {
   background: #17222d;
 }
@@ -26,6 +32,16 @@
   gap: 15px;
   padding: 12px;
   color: #fff;
+}
+@media screen and (max-width: 400px) {
+  .menu-item {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .nav-ellipse {
   width: 10px;
@@ -48,9 +64,34 @@
   justify-content: left;
   align-items: flex-end;
   gap: 249px;
-  height: 550px;
+  height: 550p30;
 }
-
+@media screen and (max-width: 400px) {
+  .header-item {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .header-item h1 {
+    text-align: center;
+    font-size: 60px !important;
+    padding: 30px;
+  }
+  .group-header {
+    flex-direction: column;
+  }
+  .form-header input,
+  .form-header button {
+    margin-top: 5px;
+    border-radius: 5px !important;
+  }
+  .form-header img {
+    display: inline-block;
+  }
+  .header {
+    height: 400px;
+  }
+}
 .header-item h1 {
   font-family: "Alice";
   font-weight: 400;
@@ -95,12 +136,23 @@
   gap: 120px;
   margin-top: 60px;
 }
+@media screen and (max-width: 400px) {
+  .panfleto {
+    flex-direction: column;
+  }
+  .barra-gray {
+    width: 100% !important;
+  }
+  .bg-section::before {
+    right: 27vw !important;
+  }
+}
+
 .map-item {
   position: relative;
 }
 .map {
   position: absolute;
-  left: 23px;
   bottom: -15px;
   filter: drop-shadow(0px 5px 5px rgba(187, 204, 221, 0.3))
     drop-shadow(0px 10px 10px rgba(187, 204, 221, 0.2));
@@ -152,6 +204,11 @@
   color: #17222d;
 }
 /********** Panfleto Infor **********/
+@media screen and (max-width: 400px) {
+  .panfleto-title h1 {
+    font-size: 45px !important;
+  }
+}
 .span-blue {
   color: #1188ee;
 }
@@ -201,6 +258,14 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+@media screen and (max-width: 400px) {
+  .cards {
+    flex-direction: column;
+  }
+  .pricebtn button img {
+    display: inline;
+  }
 }
 .card {
   background: #fff;
@@ -292,6 +357,15 @@
   text-align: center;
 }
 /* image backgroud */
+@media screen and (max-width: 400px) {
+  .image-bg {
+    padding: 30px 0px !important;
+    height: auto !important;
+  }
+  .image-bg h1 {
+    font-size: 30px !important;
+  }
+}
 .image-bg {
   background-image: url("../img/foto-quote.jpg");
   background-size: cover;
@@ -332,6 +406,30 @@
   gap: 120px;
   margin-top: 30px;
 }
+@media screen and (max-width: 400px) {
+  .groupform {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .form input,
+  .form textarea {
+    width: 100% !important;
+  }
+  .btn-form img {
+    display: inline !important;
+  }
+  .barravertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .barraform-vertical {
+    height: 150px !important;
+  }
+  #icones-bg img {
+    display: none;
+  }
+}
 .form label {
   color: #445566;
   font-family: "Nunito";
@@ -349,6 +447,7 @@
   display: block;
   border: none;
 }
+
 .form textarea {
   background: #eff4f9;
   box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
@@ -375,13 +474,11 @@
 textarea:focus {
   outline: 2px solid #1188ee;
 }
-/********** Formulario Grup **********/
 .barraform-vertical {
   background: #eff4f9;
   width: 2px;
   height: 400px;
 }
-
 h4 {
   font-family: "Nunito";
   font-size: 18px;
@@ -443,4 +540,14 @@ h4 {
   font-family: "Nunito";
   font-weight: 700px;
   font-size: 18px;
+}
+/* ****************************** Responsivo ******************************/
+.container {
+  width: 80px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
 }

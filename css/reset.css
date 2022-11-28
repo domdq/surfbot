@@ -20,7 +20,7 @@ p {
   font-size: 18px;
   color: #445566;
 }
-.container {
-  width: 1170px;
-  margin: 0 auto;
+img {
+  display: block;
+  max-width: 100%;
 }
